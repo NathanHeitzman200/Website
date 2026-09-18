@@ -1,0 +1,19 @@
+body{
+    margin:0;
+}
+
+div.centered-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.centered-row{
+    display: flex;
+    flex-direction: row;
+}
+
+div.debug{
+    border: 1px solid red;
+}

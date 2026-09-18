@@ -1,3 +1,25 @@
+li.homePageListItem{
+    list-style-type: none;
+    display: inline-block;
+}
+
 div.page{
     background-color: var(--default-page-background);
+    margin: none;
+    height:100vh;
+}
+
+div.homePageListItemContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+a{
+    all: unset;
+    cursor: pointer;
+}
+a.listItemLink:hover{
+    font-weight: bold;
 }
