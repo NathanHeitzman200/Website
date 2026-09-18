@@ -1,0 +1,6 @@
+/*File to set/edit colors for pages*/
+
+/*globally scoped colors*/
+:root{
+    --default-page-background: #82C8E5;
+}
