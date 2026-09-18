@@ -1,12 +1,17 @@
 import express from 'express';
+import { fileURLToPath } from 'url';
+import path from 'path';
+
+const port = 8080
 const app = express()
 
-app.set('view engine', 'pug');
+const filename = fileURLToPath(import.meta.url);
+const dirname = path.dirname(filename);
 
 app.get('/', (req, res) => {
-    res.render('index')
+    res.sendFile(path.join(dirname, 'pages', 'home.html'));
 })
 
-app.listen(5656, () => {
-    console.log('http://localhost:5656')
+app.listen(8080, () => {
+    console.log('http://localhost:%s', port)
 })

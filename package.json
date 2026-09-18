@@ -1,15 +1,17 @@
 {
   "name": "website",
   "version": "1.0.0",
+  "type": "module",
   "description": "Nathan's Website",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "Nathan Heitzman",
   "license": "ISC",
   "dependencies": {
     "express": "^5.2.1",
-    "pug": "^3.0.4"
+    "pug": "^3.0.4",
+    "url": "^0.11.4"
   }
 }
