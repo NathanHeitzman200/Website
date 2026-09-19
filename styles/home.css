@@ -9,16 +9,28 @@ div.page{
     height:100vh;
 }
 
+div.grid{
+    width: 80vw;
+    min-width: 800px;
+}
+
+div.mainBlock{
+    background-color: var(--dark-green);
+    width: 100%;
+    margin: 2em;
+}
+
 div.homePageListItemContainer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
 }
 
 a{
-    all: unset;
+    all: unset; /*unset first then you can apply new styles*/
     cursor: pointer;
+    color: var(--text-color);
 }
 a.listItemLink:hover{
     font-weight: bold;

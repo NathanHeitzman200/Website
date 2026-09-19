@@ -2,5 +2,13 @@
 
 /*globally scoped colors*/
 :root{
-    --default-page-background: #82C8E5; /*find not ugly colors*/
+    --text-color: #FFF;
+    --main-box:#738678;
+
+    /*Homepage Color Palette*/
+    --black:#0F0F0F;
+    --gray:#202020;
+    --bright-green:#5DD62C;
+    --dark-green:#337418;
+    --white:#F8F8F8;
 }
