@@ -4,7 +4,7 @@ li.homePageListItem{
 }
 
 div.page{
-    background-color: var(--default-page-background);
+    background-image:url("/assets/stars.jpg");
     margin: none;
     height:100vh;
 }

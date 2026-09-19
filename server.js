@@ -25,6 +25,11 @@ app.get('/styles/rules.css', (req,res) => {
     res.sendFile(path.join(dirname, 'styles', 'global', 'rules.css'));
 })
 
+//assets
+app.get('/assets/stars.jpg', (req,res) => {
+    res.sendFile(path.join(dirname, 'assets', 'stars.jpg'))
+})
+
 app.listen(8080, () => {
     console.log('http://localhost:%s', port)
 })
